@@ -1,10 +1,36 @@
 <style>
+    .horizontal-links{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+  
+    .hyperLink{
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    .button{
+        margin-right: 10px;
+        margin-left: 10px;
+
+        
+    
+    }
+
 
 </style>
 
-<button id="backButton">Back</button>
+
 <nav>
-    <ul>
-        <li></li>
+    
+    <ul class="horizontal-links">
+        <button class="button" id="backButton">Back</button>
+        <li ><a class="hyperLink" href="#1">1</a></li>
+        <li><a class="hyperLink" href="#2">2</a ></li>
+        <li><a class="hyperLink" href="#3">3</a></li>
+        <li><a class="hyperLink" href="#4">4</a></li>
+        <li><a class="hyperLink" href="#5">5</a></li>
+        <button class="button" id="Next">Next</button>
     </ul>
 </nav>
